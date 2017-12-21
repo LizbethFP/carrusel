@@ -12,8 +12,8 @@ var eighthPicture = $('img').last();
 var firstCircle = $('i').first().next();
 var secondCircle = $('i').first().next().next();
 var thirdCircle = $('i').first().next().next().next();
-var fourthCircle = $('i').last().prev();
-var fifthCircle= $('i').last();
+var fourthCircle = $('i').last().prev().prev();
+var fifthCircle= $('i').last().prev();
 // Agregar evento con función anónima
 $(firstCircle).click( function showPicture() {
   $(firstPicture).show();
