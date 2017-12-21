@@ -1,0 +1,34 @@
+/* Clases reutilizables */
+body {
+  background-color: #424242;
+}
+
+h1, i {
+  color: #fff;
+}
+
+/* Clases específicas */
+h1, .bullets-arrows {
+ text-align: center;
+}
+
+.pictures {
+  width: 70%;
+  margin-left: 15%;
+  box-sizing: border-box;
+  border: 0.313em solid #fff;
+  padding: 0.5em;
+}
+
+img {
+  width: 100%;
+  height: 80vh;
+}
+
+i[class^="fa fa-circle"], .fa-arrow-left {
+  margin-right: 1em;
+}
+
+.bullets-arrows {
+  margin-top: 1.5em;
+}
