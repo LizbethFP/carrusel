@@ -12,9 +12,9 @@ var eighthPicture = $('img').last();
 var firstCircle = $('i').first().next();
 var secondCircle = $('i').first().next().next();
 var thirdCircle = $('i').first().next().next().next();
-var fourthCircle = $('i').last().prev().prev().prev().prev();
-var fifthCircle = $('i').last().prev().prev().prev();
-var sixthCircle = $('i').last().prev().prev();
+var fourthCircle = $('i').last().prev().prev().prev();
+var fifthCircle = $('i').last().prev().prev();
+var sixthCircle = $('i').last().prev();
 // Obtener los íconos de círculos por grupos
 var firstFourCircles = $(firstCircle).nextUntil(sixthCircle);
 // Agregar evento con función anónima
