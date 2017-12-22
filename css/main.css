@@ -32,3 +32,7 @@ i[class^="fa fa-circle"], .fa-arrow-left {
 .bullets-arrows {
   margin-top: 1.5em;
 }
+
+.fa-circle {
+  color: #2ab7a9;
+}
